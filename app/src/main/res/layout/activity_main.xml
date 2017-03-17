@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.soft.niuyi.labelview.view.LabelsView
+        android:id="@+id/labels"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:labelBackground="@drawable/pink_frame_bg"
+        app:labelTextColor="@android:color/holo_red_light"
+        app:labelTextPaddingBottom="3dp"
+        app:labelTextPaddingLeft="10dp"
+        app:labelTextPaddingRight="10dp"
+        app:labelTextPaddingTop="3dp"
+        app:labelTextSize="14sp"
+        app:lineMargin="10dp"
+        app:wordMargin="10dp"/>
+
+</LinearLayout>

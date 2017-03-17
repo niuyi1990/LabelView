@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LabelsView">
+        <attr name="labelTextColor" format="color" />//标签的背景
+        <attr name="labelTextSize" format="dimension" />//标签的字体大小
+        <attr name="labelTextPaddingLeft" format="dimension" />
+        <attr name="labelTextPaddingTop" format="dimension" />//标签的上下左右边距
+        <attr name="labelTextPaddingRight" format="dimension" />
+        <attr name="labelTextPaddingBottom" format="dimension" />
+        <attr name="lineMargin" format="dimension" />//行与行的距离
+        <attr name="wordMargin" format="dimension" />//标签与标签的距离
+        <attr name="labelBackground" format="reference" />//标签的背景
+
+    </declare-styleable>
+</resources>
